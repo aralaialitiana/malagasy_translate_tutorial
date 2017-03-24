@@ -14,12 +14,12 @@ Exercises:
 import os #library for doing stuff related to the operatin system
 
 #Greeting
-print("This is a simple script")
+print("This is my first script")
 print("It executes program line-by-line")
 
 currentDirectory = os.getcwd() #same as `dir` in windows and `pwd` in linux
-print("We are in directory:", currentDirectory)
-print("The following is a list of files in a current directory:")
+print("Nous sommes dans le repertoire:", currentDirectory)
+print("La liste suivante donne la liste des fichiers dans le repertoire encours:")
 print(os.listdir())
 
 
