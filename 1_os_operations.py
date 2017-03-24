@@ -21,7 +21,8 @@ currentDirectory = os.getcwd() #same as `dir` in windows and `pwd` in linux
 print("Nous sommes dans le repertoire:", currentDirectory)
 print("La liste suivante donne la liste des fichiers dans le repertoire encours:")
 print(os.listdir())
-
+for dir in os.listdir():
+	print(dir)
 
 
 print("Here it ends")
